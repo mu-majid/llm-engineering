@@ -1,16 +1,17 @@
 # llm-engineering
 Journey to learn Large Language Models (LLMs)
 
-
-## Setup:
+## Introduction:
+### Setup:
 1. installed Anaconda
 2. Setup the environment using environment.yml file
   - `conda env create -f environment.yml`
 3. Added my openai api key to be able to connect to openai apis.
 4. Activate the conda env
   - `conda activate llms`
+5. Run `jupyter lab` to spin up the notebooks.
 
-## Notes:
+### Notes:
  - Frontier models have some limitations, like:
     1. Not a PhD level in some specialised domains, so an expert is still needed there.
     2. Their knowledge is cut off to a certain date.
@@ -23,3 +24,7 @@ Journey to learn Large Language Models (LLMs)
  - LLMs are stateless, so they don't keep track of any info and every API call is unique (e.g User: "My favourite sport is football" - GPT: "That's great, football is ...." | User: "What's my favourite sport?" - GPT: "Sorry I don't have this information").
  - ChatGPT on the other hand is a separate application, different from simply making a stateless api call, it saves the conversation history and sends it every time you send something to the API so it has context.
  - Exceeding the context window is usually handled by two methods (trucating older parts of the chat's history, or Chunking the data to keep the logic coherent, then run LLM on the aggregated (LLM)processed chunks)
+
+## Multi Modal Chatbot:
+
+### Notes:
