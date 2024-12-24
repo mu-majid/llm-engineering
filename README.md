@@ -31,3 +31,11 @@ Journey to learn Large Language Models (LLMs)
  - Tools basically refer to the idea of allowing frontier models to communicate with external functions.
  - This could be querying something, or doing an action.
  - LLMs are bad at calculations, so one use case is to use a calculator as an external function that LLMs can use.
+ -  Agents (Agentic AI) is a software that can autonomously perform tasks. They are Autonomous, Task Specific, and Goal-oriented.
+ - The term 'Agentic AI' and Agentization is an umbrella term that refers to a number of techniques, such as:
+
+    1. Breaking a complex problem into smaller steps, with multiple LLMs carrying out specialized tasks
+    2. The ability for LLMs to use Tools to give them additional capabilities
+    3. The 'Agent Environment' which allows Agents to collaborate
+    4. An LLM can act as the Planner, dividing bigger tasks into smaller ones for the specialists
+    5. The concept of an Agent having autonomy / agency, beyond just responding to a prompt - such as Memory
