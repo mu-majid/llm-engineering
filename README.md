@@ -28,3 +28,6 @@ Journey to learn Large Language Models (LLMs)
 ## Multi Modal Chatbot:
 
 ### Notes:
+ - Tools basically refer to the idea of allowing frontier models to communicate with external functions.
+ - This could be querying something, or doing an action.
+ - LLMs are bad at calculations, so one use case is to use a calculator as an external function that LLMs can use.
