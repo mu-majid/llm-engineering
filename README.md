@@ -39,3 +39,9 @@ Journey to learn Large Language Models (LLMs)
     3. The 'Agent Environment' which allows Agents to collaborate
     4. An LLM can act as the Planner, dividing bigger tasks into smaller ones for the specialists
     5. The concept of an Agent having autonomy / agency, beyond just responding to a prompt - such as Memory
+
+## HuggingFace
+
+### Notes:
+ - This is an open source platform that has models, datasets, transformers, ... ready to use for us.
+ - There are six libraries behind HuggingFace: ( Hub, datasets, transformers, Peft, TRL, Accelerate )
