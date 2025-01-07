@@ -45,3 +45,11 @@ Journey to learn Large Language Models (LLMs)
 ### Notes:
  - This is an open source platform that has models, datasets, transformers, ... ready to use for us.
  - There are six libraries behind HuggingFace: ( Hub, datasets, transformers, Peft, TRL, Accelerate )
+ - Hugging Face has two APIs: 1. Pipelines (high level, easy to use api), 2. Tokenizer&Models (Advanced API)
+ - Tasks that we can do with pipelines API are, in addition to generating text, imgs and audio:
+  1. Sentiment Analysis
+  2. Classifier
+  3. Named Entity Recognition
+  4. Question Answering
+  5. Summarising
+  6. Translation
