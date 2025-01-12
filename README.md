@@ -53,3 +53,7 @@ Journey to learn Large Language Models (LLMs)
   4. Question Answering
   5. Summarising
   6. Translation
+
+ - When using Tokeniezers&Models, there're some techniques that we should pay attention to:
+  1. Quantization: Reducung the precision of the weights in the model, so it fits in memory and runs faster
+  2. Streaming: Stream the result back instead of just returing it in a big bulk.
