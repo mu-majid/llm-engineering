@@ -57,3 +57,37 @@ Journey to learn Large Language Models (LLMs)
  - When using Tokeniezers&Models, there're some techniques that we should pay attention to:
   1. Quantization: Reducung the precision of the weights in the model, so it fits in memory and runs faster
   2. Streaming: Stream the result back instead of just returing it in a big bulk.
+
+## Models for code Generation:
+ - The Chinchilla Scaling Law: Number of parameters (Weights) in a model is proportional to the number of training tokens.
+ - Common Benchmarks for deciding which model to use for a task at hand:
+  1. ARC -> Reasoning -> used for evaluating scientific reasoning, MCQ..
+  2. DROP -> Language Comparison -> Distill details from text then add, count,...
+  3. HellaSwag -> CommonSense -> Harder endings, long contexts, low shot activities
+  4. MMLU -> Understanding -> Factual recall, reasoning and problem solving across 57 subjects
+  5. TruthfulQA -> Accuracy -> Robust in providing truthful replies in adversarial conditions
+  6. Winogrande -> Context -> Test LLM understand context and resolve ambiguity
+  7. GSM8K -> Math -> Math and word problems taught in elementary and middle schools
+
+ - Specific Benchmarks:
+  1. ELO ->  Chat -> Head-to-head face offs with other LLMs, Like ELO in Chess
+  2. HumanEval -> Python Coding -> 164 problems wiiting code based on docstrings
+  3. Multipl-E -> Broader Coding -> Translation of HumanEval to 18 programming langyages
+
+ - Some of the limitations to the Benchmarks tests:
+  1. Not consistently applied
+  2. too narrow in scope
+  3. hard to measure nuanced reasoning
+  4. training data leakage
+  5. Overfitting
+  6. Frontier LLMs may be aware thet they are being evaluated (not yet proven)
+
+ - New harder Benchmarks to overcome the limitation
+  1. GPQA -> Graduate Tests -> 448  expert questions; non-phd humans score 34% even with web access
+  2. BBHard -> future capabilities -> 204 tasks believed beyond capabilities of llms
+  3. Math Lv 5 -> Math ->  High-school math competition problems
+  4. IFEval -> difficult instructions -> like "write more than 400 words ..."
+  5. MuSR -> Multiple Soft Reasoning -> Logical deduction, such as analyzing 1000 words murder mystery and answering "who has means motive and opportunity"
+  6. MMLU-PRO -> Harder MMLU -> harder mmlu with 10 choices instead of 4 in the test
+
+ - Hugging face Leaderboard is an awesome place for comparing models againsts different benchmarks.https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
