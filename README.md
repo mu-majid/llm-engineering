@@ -90,4 +90,4 @@ Journey to learn Large Language Models (LLMs)
   5. MuSR -> Multiple Soft Reasoning -> Logical deduction, such as analyzing 1000 words murder mystery and answering "who has means motive and opportunity"
   6. MMLU-PRO -> Harder MMLU -> harder mmlu with 10 choices instead of 4 in the test
 
- - Hugging face Leaderboard is an awesome place for comparing models againsts different benchmarks.https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+ - Hugging face Leaderboard is an awesome place for comparing models againsts different benchmarks.https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/ 
